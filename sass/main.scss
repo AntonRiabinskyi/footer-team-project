@@ -3,13 +3,12 @@
 @import "./utils/visually-hidden";
 
 //BASE
-@import "./base/common";
-@import "./base/container";
+@import "./base/reset";
+@import "./base/basic-styles";
 
 //COMPONENTS
 
-@import "./components/footer-social-link";
-
+@import "./components/container";
 
 //LAYOUT
 @import "./layout/header";

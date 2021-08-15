@@ -1,114 +1,23 @@
-:root {
-  --primary-text-color: #2b2b2b;
-  --secondary-text-color: #487996;
-  --accent-color: #7ea8ca;
-  --primary-bg-color: #ffffff;
-  --primary-font-family: "Cera Pro", sant-serif;
-  --secondary-font-family: "Caviar Dreams", sant-serif;
-}
-
-.list {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-}
-
-.link {
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0px;
-  padding: 0px;
-}
-
-p {
-  margin: 0px;
-  padding: 0px;
-}
-
-img {
-  display: block;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
-body {
-  background-color: var(--primary-bg-color);
-  color: var(--primary-text-color);
-  font-family: var(--prinary-font-family);
-  margin: 0px;
-  letter-spacing: 0.03em;
-}
-
-.container {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen and (min-width: 320px) {
-  .container {
-    width: 320px;
-    padding-left: 7px;
-    padding-right: 7px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-
-@media screen and (min-width: 1444px) {
-  .container {
-    width: 1444px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
 .footer {
   padding-top: 32px;
   padding-bottom: 32px;
   background: #f5f5fa;
   box-shadow: 5px 2px 5px 8px rgba(72, 121, 150, 0.1);
 }
-
 .footer-conteiner {
   display: block;
   justify-content: center;
   text-align: center;
 }
-
 .footer_nav-list {
   margin-top: 19px;
 }
-
 .footer-address_title {
   margin-top: 24px;
 }
-
 .footer_nav-item:not(:last-child) {
   margin-bottom: 8px;
 }
-
 .social-nav {
   margin-top: 24px;
 }
@@ -122,7 +31,6 @@ body {
   letter-spacing: 0.01em;
   color: var(--prmaty-text-color);
 }
-
 .social_nav-link {
   font-family: var(--prinary-font-family);
   font-style: normal;
@@ -136,7 +44,6 @@ body {
 .social_nav-item:not(:last-child) {
   margin-bottom: 8px;
 }
-
 .footer-address_title {
   font-family: var(--prinary-font-family);
   font-style: normal;
@@ -146,7 +53,6 @@ body {
   letter-spacing: 0.01em;
   color: var(--prmaty-text-color);
 }
-
 .footer-address_link {
   font-family: var(--primary-font-family);
   font-style: normal;
@@ -160,12 +66,12 @@ body {
 .footer-address_item {
   margin-top: 8px;
 }
-
 @media screen and (min-width: 768px) {
   .footer {
     padding-left: 60px;
     padding-right: 60px;
   }
+
   .footer-conteiner {
     display: flex;
     justify-content: space-between;
@@ -181,7 +87,6 @@ body {
     text-align: end;
   }
 }
-
 @media screen and (min-width: 1444px) {
   .footer {
     padding-top: 30px;
@@ -203,4 +108,3 @@ body {
     text-align: start;
   }
 }
-/*# sourceMappingURL=main.css.map */
